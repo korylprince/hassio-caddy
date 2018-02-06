@@ -7,4 +7,6 @@ RUN apk add --no-cache caddy jq
 
 ENV CADDYPATH /ssl
 
-CMD [ "caddy", "-conf", "/share/caddy/Caddyfile" ]
+COPY run.sh /
+
+CMD [ "/run.sh" ]

@@ -9,6 +9,10 @@
     "boot": "auto",
     "map": ["share", "ssl:rw"],
     "host_network": true,
-    "options": {},
-    "schema": {}
+    "options": {
+        "flags": []
+    },
+    "schema": {
+        "flags": ["str"]
+    }
 }

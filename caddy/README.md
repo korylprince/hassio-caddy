@@ -23,3 +23,20 @@ You can pass flags to Caddy by using the `flags` option in the Hass.io config. E
             "user@example.com"
             ]
     }
+
+# Updates/Plugins
+
+#### Explanation
+This add-on uses the [latest version of Caddy built for Alpine Linux.](https://pkgs.alpinelinux.org/packages?name=caddy&branch=v3.8) This version usually lags behind the latest Caddy stable version.
+
+Additionally, due to the way Caddy plugins work<sup>1</sup>, it's impossible to allow arbitrary plugins (or any at all) with this packaged Caddy.
+
+Luckily, since Caddy is written in Go, it compiles to a single binary which makes it easy to run a custom Caddy build with whatever version and plugins you want.
+
+#### Custom Caddy binaries
+You can [build your own version of Caddy](https://github.com/mholt/caddy#build), but it's really easy to download a custom build from [Caddy's website](https://caddyserver.com/download). Make sure to select the correct Linux architecture (Raspberry Pi's will use ARMv6 or ARMv7 depending on the version of the hardware and OS.) The binary is the file named `caddy` in the root of the downloaded `.tar.gz` file.
+
+#### Install
+To use a custom binary, just name it `caddy.bin` and place it in the same folder (`/share/caddy/`) as your `Caddyfile`. Restart the add-on to start using the custom version.
+
+<sup>1</sup> Caddy plugins are currently built directly into the binary. Go, the language Caddy is written in, does have some support for building plugins, but Caddy doesn't currently support this (as far as I can tell, at least.)

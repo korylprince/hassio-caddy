@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.4] - 2018-11-23
+### Added
+- Added ability to use custom Caddy binaries (Issue #3 and #4)
+
+### Updated
+- Updated Caddy version to 0.10.14
+- Updated base image to latest version (based on Alpine 3.8)
+
 ## [1.3] - 2018-02-06
 ### Added
 - Added `flags` option to Hass.io config to specify Caddy flags
@@ -17,6 +25,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial Project
 
+[1.4]: https://github.com/korylprince/hassio-caddy/compare/1.3...1.4
 [1.3]: https://github.com/korylprince/hassio-caddy/compare/1.2...1.3
 [1.2]: https://github.com/korylprince/hassio-caddy/compare/1.1...1.2
 [1.1]: https://github.com/korylprince/hassio-caddy/compare/1.0...1.1

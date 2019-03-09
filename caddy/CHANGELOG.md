@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.5] - 2019-03-09
+### Added
+- Added new armv7 Docker Hub build
+
+### Updated
+- Updated Caddy version to 0.11.1
+- Updated base image to latest version (based on Alpine 3.9)
+
 ## [1.4] - 2018-11-23
 ### Added
 - Added ability to use custom Caddy binaries (Issue #3 and #4)

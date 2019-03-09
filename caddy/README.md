@@ -27,7 +27,7 @@ You can pass flags to Caddy by using the `flags` option in the Hass.io config. E
 # Updates/Plugins
 
 #### Explanation
-This add-on uses the [latest version of Caddy built for Alpine Linux.](https://pkgs.alpinelinux.org/packages?name=caddy&branch=v3.8) This version usually lags behind the latest Caddy stable version.
+This add-on uses the [latest version of Caddy built for Alpine Linux.](https://pkgs.alpinelinux.org/packages?name=caddy&branch=v3.9) This version usually lags behind the latest Caddy stable version.
 
 Additionally, due to the way Caddy plugins work<sup>1</sup>, it's impossible to allow arbitrary plugins (or any at all) with this packaged Caddy.
 

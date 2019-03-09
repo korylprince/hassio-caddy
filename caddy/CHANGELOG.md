@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## [1.5] - 2019-03-09
 ### Added
-- Added new armv7 Docker Hub build
+- Added new armv7 Docker Hub build (Issue #6)
 
 ### Updated
 - Updated Caddy version to 0.11.1

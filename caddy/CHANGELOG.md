@@ -33,6 +33,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial Project
 
+[1.5]: https://github.com/korylprince/hassio-caddy/compare/1.4...1.5
 [1.4]: https://github.com/korylprince/hassio-caddy/compare/1.3...1.4
 [1.3]: https://github.com/korylprince/hassio-caddy/compare/1.2...1.3
 [1.2]: https://github.com/korylprince/hassio-caddy/compare/1.1...1.2

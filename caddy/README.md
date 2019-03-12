@@ -24,6 +24,17 @@ You can pass flags to Caddy by using the `flags` option in the Hass.io config. E
             ]
     }
 
+You can also pass environment variables to Caddy by using the `env_vars` option in the Hass.io config. Example:
+
+    {
+        "env_vars": [
+            "CLOUDFLARE_EMAIL=mail@example.com",
+            "CLOUDFLARE_API_KEY=1f25dc1b6deb8e65948ca61d157f3038c"
+            ]
+    }
+
+**Note**: The string is parsed as bash after being JSON-decoded, so if you need to include spaces or other special characters, you can wrap your value in quotes: `"SPECIAL=\"some spaces\""`
+
 # Updates/Plugins
 
 #### Explanation

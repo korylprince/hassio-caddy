@@ -11,9 +11,11 @@
     "map": ["share", "ssl:rw"],
     "host_network": true,
     "options": {
-        "flags": []
+        "flags": [],
+        "env_vars": []
     },
     "schema": {
-        "flags": ["str"]
+        "flags": ["str"],
+        "env_vars": ["str"]
     }
 }

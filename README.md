@@ -1,3 +1,9 @@
+# Archived
+
+Unfortunately, I just don't have time to maintain this project anymore. This repository is now archived, but will remain in place for anyone still using it.
+
+I suggest migrating to the [Caddy 2 Add-on](https://github.com/einschmidt/hassio-addons/tree/master/Caddy%202), which I've been using successfully for several months.
+
 # About
 
 This repository contains just one add-on, an unofficial [Caddy add-on](https://github.com/korylprince/hassio-caddy/tree/master/caddy).
